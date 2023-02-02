@@ -118,7 +118,7 @@ h2,h3,h4,h5,h6,p { /* h1부터 p까지를 스타일 적용하겠다 */
     height: 173px;
     line-height: 150px;
     font-size:x-large;
-    background-image: url("Greenribbon.png");
+    background-image: url("../image/Greenribbon.png");
     margin: 0 auto; /* (바깥)여백 : 상하0, 좌우 알아서(계산) */
 }
 /*
