@@ -159,9 +159,11 @@ h2,h3,h4,h5,h6,p { /* h1부터 p까지를 스타일 적용하겠다 */
 {
 
     #moto {
-        width: 520px; /*#moto를 ()px만큼으로 스타일로 */
-        background-size: cover; /*배경이미지 크기 (모토사이즈에 맞게) 알맞게 조정*/
-        line-height:80px;
-        height: 90px;
+        width: 75%; /*#moto를 ()px만큼으로 스타일로 */
+        background-size: contain; /*배경이미지 크기 (모토사이즈에 맞게) 알맞게 조정*/
+        background-repeat: no-repeat;
+        line-height:46px;
+        height: 66px;
+        font-size: 0.925rem;
     }   
 }
