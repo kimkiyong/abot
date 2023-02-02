@@ -153,3 +153,15 @@ h2,h3,h4,h5,h6,p { /* h1부터 p까지를 스타일 적용하겠다 */
     width: 300px;
     margin: 2rem 0; /*(바깥)여백:" 상하 기본값 2배수 ,좌우 0*/
 }
+
+/* 미디어 쿼리 (반응형) */
+@media screen and (max-width: 480px)  /*미디어 가로 크기가 480일 때 */
+{
+
+    #moto {
+        width: 520px; /*#moto를 ()px만큼으로 스타일로 */
+        background-size: cover; /*배경이미지 크기 (모토사이즈에 맞게) 알맞게 조정*/
+        line-height:80px;
+        height: 90px;
+    }   
+}
